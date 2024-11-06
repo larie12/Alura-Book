@@ -37,13 +37,15 @@
     display: block;
 }
 
-.lista-menu__titulo{
-    color: var(--laranja);
-}
+.lista-menu__titulo,
 .lista-menu__item {
     padding:1em;
     background-color: var(--branco);
 }
+
+.lista-menu__titulo {
+    color: var(--laranja);
+
 .lista-menu__link {
   background: var(--azul-degrade);
   -webkit-background-clip: text;
