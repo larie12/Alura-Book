@@ -83,9 +83,18 @@
   padding: 0 1em;
   text-transform: uppercase;
   }
+
+.opções__link {
+ text-decoration: none;
+ color: var(--preto);
+  }
 }
 
 .container__titulo {
+  display: none;
+}
+
+.opções {
   display: none;
 }
 
