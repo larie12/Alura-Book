@@ -115,6 +115,10 @@
         display: none;
     }
 }
+.container__texto {
+  display: none;
+}
+
 
 @media screen and (min-width: 1728px) {
   .container__link {
@@ -122,6 +126,7 @@
     align-items: center;
     text-decoration: none;
     color: var(--preto);
+    padding-right: 30px;
   }
   .opcoes {
     margin-right: auto;
@@ -130,6 +135,4 @@
     display: block;
   }
 }
-.container__texto {
-  display: none;
-}
+
